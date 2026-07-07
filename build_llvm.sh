@@ -14,7 +14,7 @@ cmake                                                   \
   -DCMAKE_CXX_COMPILER=/usr/bin/x86_64-linux-gnu-g++-11 \
   -DCMAKE_BUILD_TYPE=RelWithDebInfo                     \
   -DLLVM_ENABLE_PROJECTS="clang"                        \
-  -DLLVM_TARGETS_TO_BUILD="RISCV"                       \
+  -DLLVM_TARGETS_TO_BUILD="RISCV;EZRV"                  \
   -DLLVM_ENABLE_ASSERTIONS="true"                       \
   -DLLVM_USE_LINKER=lld                                 \
   -DLLVM_USE_SPLIT_DWARF=ON                             \
